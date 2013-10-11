@@ -1,8 +1,13 @@
-var string = "Marbles is a sonic youth";
+var phrase = "Marbles is a chicken";
 var que = " ";
+
 var randomizer= " ";
 		
-for (var i = string.length; i>=0; i--) {
+
+	
+	   function vowelizer (string){
+	   	 
+  		for (var i = string.length; i>=0; i--) {
 	
 	   	
       
@@ -28,8 +33,9 @@ for (var i = string.length; i>=0; i--) {
 			
 		
 	};
- }
- console.log(que);
+ };
 
+ return console.log(que);
+}
 
- 		
+vowelizer(phrase)
