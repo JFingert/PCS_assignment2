@@ -1,6 +1,5 @@
 var string = "Marbles is a chicken";
 var que;
-//var product;
 
 
 		
